@@ -18,31 +18,7 @@ Option 1 - Install on your machine
 
 5. Enjoy installed and configured JBoss BRMS 6.
 
-
-Option 2 - Install with one click in xPaaS (brmsPaaS)
------------------------------------------------------
-After clicking button, ensure `Gear` size is set to `large`:
-
-[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/light/Install brmsPaaS.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=https://raw.githubusercontent.com/jbossdemocentral/cartridge-brmsPaaS/master/metadata/manifest.yml&name=brmspaas&gear_profile=large&initial_git_url=)
-
-Once installed you can use the JBoss BRMS logins:
-
-   * u:erics  p: jbossbrms  (admin)
-
-   * u: alan  p: jbossbrms  (analyst)
-
-Current hosting of bpmPaaS is on JBoss BRMS 6.0.2 in OpenShift Online.
-
-
-Option 3 - Install on Red Hat CDK OpenShift Enterprise image
-------------------------------------------------------------
-The following steps can be used to install this demo on OpenShift Enterprise using the
-Red Hat Container Development Kit (CDK)
-
-1. [App Dev Cloud with JBoss BRMS Rating Demo](https://github.com/redhatdemocentral/rhcs-brms-rating-demo)
-
-
-Option 4 - Generate containerized install
+Option 2 - Generate containerized install
 -----------------------------------------
 The following steps can be used to configure and run the demo in a container
 
